@@ -20,7 +20,6 @@
   height:40px;
   margin-bottom:50px;
   margin-top: -32px;
-  margin-left:280px;
   padding-top: 0px;
   top:15px;
 }
@@ -28,7 +27,6 @@
   float: right;
   height: 50px; 
 } 
-
 .lupa{
   float:left;
   height:40px;
@@ -48,88 +46,174 @@ h2{
   color:#FFF;
 }
 
-.containerfluid{
-  background-color:#1CA5F3; 
-  width:100%;
-  height:900px;
-  top:0px;
-  margin-top:-20px;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #0869C2;
+    margin: 0;
 }
 
-.primer-input{
-  width: 250px;
-  background-color: #006BA9;
-  color: #FFF;
-  cursor: pointer;
-  padding: 10px 20px 10px 10px;
-  border-radius: 5px;
-  margin-top:10px;
-  margin-left: 10px;
-  position: absolute;
+header {
+    top: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #0759A5;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em% 35%;
 }
 
-.primer-Li:hover{
-  background-color: #005586;
+img {
+    padding: 0.3em 0 0.1em;
+    height: 1.3em;
+   
 }
 
-.form-group{
-  margin-top: 20px;
-  width: 220px;
-  height: 50px;
-  border-radius: 5px;
-  padding: 10px;
-  margin-right: 10px;
+
+h2 {
+    color: #fff;
+    width: 25%;
+    font-size: 1.3em;
+    margin: 0.8em 0.8em 0.4em 0.8em;
 }
 
-.vinculo{
-  color: #FFF;
-  cursor: pointer;
-  text-align: center;
-}
-.vinculo:hover{
-  cursor: pointer;
-  color: #FFF;
-}
-.input-lista{
-  margin-left: 15px;
+button, #inputName, #textAreaCard, #btnSaveName, .newCards {
+    outline: none;
+    border-radius: 5px;
+    border: none;
 }
 
-#contenedor p{
-  color: #FFF;
-  font-size: 18px;
+#btn {
+    background-color: #0759A5;
+    color:#FFF;
+    padding: 1em;
+    font-size: 0.9em;
+    text-align: left;
+    margin:0%;
 }
 
-.areaDeTxt{
-  color: #424242;
-  font-size: 15px;
+#btn::placeholder {
+    color:white;
 }
 
-.btnTarjeta{
-  margin-left: 60px;
+#btn:hover {
+    background-color: #064987;
 }
 
-.anadir-lista-borrar{
-  display: none;
+#inputName {
+    background-color:#FFF;
+    color: #000;
+    padding: 0.5em;
+    margin: 0.1em;
+    font-size: 0.9em;
+    text-align: left;
+    display: block;
 }
 
-.lista{
-  margin-top: 80px; 
-  margin-left: -12px;
+#btnSaveName, #addCardButton {
+    background-color: #0cad34;
+    color:#FFF;
+    padding: 0.7em;
+    outline: none;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.3em 0.3em 0;
+    width: 30%;
 }
 
-#primero{
-  margin-top:60px;      
-  margin-left: -30px;
+#btnSaveName:hover, #addCardButton:hover {
+    background-color: #078f27;
 }
 
-.otros-input{
-  width: 250px;
-  background-color: #006BA9;
-  color: #FFF;
-  cursor: pointer;
-  padding: 10px 20px 10px 10px;
-  border-radius: 5px;
-  margin-top:50px;
-  margin-left: -30px;
-  position: absolute;
+/* habilita input */
+.enable-menu {
+    margin:0;
+  display:block;
 }
+
+/* deshabilita input */
+.disable-menu {
+  display:none;
+}
+
+.fa {
+    color: #8f8f8f;
+}
+
+#form {
+    padding: 0;
+}
+
+.contenedor {
+    margin: 0.8em;
+    display: inline-block;
+    width: 20em;
+}
+
+#addListName, #saveListName {
+    border-radius: 5px;
+    width: 25%;
+    border: none;
+    background-color:#E1E3E5;
+    height: auto;
+}
+
+
+h3 {
+    margin-left: 0.3em;
+    font-size: 1em;
+}
+
+#btnNewCard {
+    font-size: 0.9em;
+    color: #757575;
+    margin-bottom: 0.3em;
+    background-color: #E0E2E4;
+}
+
+#btnNewCard:hover {
+    text-decoration: underline;
+    color: #535353;
+}
+
+#textAreaCard {
+    width: 100%;
+    font-size: 1em;
+    margin: 0;
+}
+
+.newCards {
+    background-color: #FFF;
+    padding: 0.5em;
+    margin: 0.5em 0 0.5em;
+    height: auto;
+}
+
+p {
+    margin:0;
+    font-size: 1em;
+}
+
+#xbutton {
+    background-color:#078f27 ;
+}
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+
+
